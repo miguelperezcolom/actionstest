@@ -2,6 +2,7 @@ name: Test
 on: [pull_request, workflow_dispatch]
 jobs:
   run_tests:
+    name: xxxx
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
